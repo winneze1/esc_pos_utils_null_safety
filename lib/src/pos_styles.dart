@@ -32,7 +32,7 @@ class PosStyles {
     this.height: PosTextSize.size1,
     this.width: PosTextSize.size1,
     this.fontType: PosFontType.fontA,
-    this.codeTable: "CP437",
+    this.codeTable: const PosCodeTable(0),
   });
 
   final bool bold;
@@ -43,7 +43,7 @@ class PosStyles {
   final PosTextSize height;
   final PosTextSize width;
   final PosFontType? fontType;
-  final String? codeTable;
+  final PosCodeTable? codeTable;
 
   PosStyles copyWith({
     bool? bold,
@@ -54,7 +54,7 @@ class PosStyles {
     PosTextSize? height,
     PosTextSize? width,
     PosFontType? fontType,
-    String? codeTable,
+    PosCodeTable? codeTable,
   }) {
     return PosStyles(
       bold: bold ?? this.bold,

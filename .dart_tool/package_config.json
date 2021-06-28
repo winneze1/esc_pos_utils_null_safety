@@ -185,10 +185,10 @@
       "name": "esc_pos_utils",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.12"
+      "languageVersion": "2.1"
     }
   ],
-  "generated": "2021-06-27T21:26:15.255836Z",
+  "generated": "2021-06-28T18:04:55.335560Z",
   "generator": "pub",
   "generatorVersion": "2.13.3"
 }
